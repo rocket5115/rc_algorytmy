@@ -33,7 +33,7 @@ for(let key in chars){
 for(let i=0;i<input.length;i++){
     let data=input.substring(i,i+1);
     if(!data||chars[data]==undefined)continue;//Jeżeli nie ma wartości albo chars[na pozycji data] jest niewiadoma, pomiń pętle
-    chars[data]++;//Zwiększ o i chars[na pozycji data]
+    chars[data]++;//Zwiększ o 1 chars[na pozycji data]
 };
 //Wypisz kolejno wszystkie znaki
 for(let i=0;i<intchars.length;i++){
