@@ -1,12 +1,7 @@
-//Polecenie
-/* 
-    Znajdź największy znak w tabeli n-elementowej, gdzie wszystkie elementy do znaki a-z i A-Z
-    a-z mające niższą wartość niż A-Z, gdzie ciąg a-z i A-Z jest nieprzerwana
-    Wypisz wartość znaku i jego literę
-
-    Dodatkowo:
-    Policz występowanie każdego znaku w ciągu znaków
-*/
+// //Polecenie
+// /*
+//     W każdej lini znajdź największy i najmniejszy znak A-Z
+// */
 
 //Tabela ze znakami UTF8
 var UTF8 = {A:65,B:66,C:67,D:68,E:69,F:70,G:71,H:72,I:73,J:74,K:75,L:76,M:77,N:78,O:79,P:80,Q:81,R:82,S:83,T:84,U:85,V:86,W:87,X:88,Y:89,Z:90}
